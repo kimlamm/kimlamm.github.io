@@ -7,69 +7,30 @@
     </head>
 
     <body>
-
-        <!--<img src="images/testbackground.png" alt="welcome image background" style="width:100%;">-->
-
-        <div class="container">
-            <img src="images/testbackground.png" alt="welcome image background" class="welcomeImageDiv">
-            <div class="welcomeText">
-                <h1>Kim Lam</h1>
+        <img src="images/testbackground.png" alt="welcome image background" class="welcomeImageDiv">
+        <div class="welcomeText">
+            <h1>Kim Lam</h1>
+            <a href="#aboutme">
                 <button class="button button1">About Me</button>
-            </div>
+            </a>
+            <a href="#interests">
+                <button class="button button2">Interests</button>
+            </a>
+            <a href="#coolsongs">
+                <button class="button button3">Cool Songs</button>
+            </a>
+            <a href="#contacts">
+                <button class="button button4">Contacts</button>
+            </a>
         </div>
-
-        <h1> test heading </h1>
-
-        <p> The fallen leaves tell a story. <br>
-
-            The great Elden Ring was shattered. <br>
-            
-            In our home, across the fog, the Lands Between. <br>
-            
-            Now, Queen Marika the Eternal is nowhere to be found, <br>
-            
-            and in the Night of the Black Knives, Godwyn the Golden was the first to perish. <br>
-            
-            Soon, Marika's offspring, demigods all, claimed the shards of the Elden Ring. <br>
-            
-            The mad taint of their newfound strength triggered the Shattering. <br>
-            
-            A war from which no lord arose. <br>
-            
-            A war leading to abandonment by the Greater Will. <br>
-            
-            Arise now, ye Tarnished. <br>
-            
-            Ye dead, who yet live. <br>
-            
-            The call of long-lost grace speaks to us all. <br>
-            
-            Hoarah Loux, chieftan of the badlands. <br>
-            
-            The ever-brilliant Goldmask. <br>
-            
-            Fia, the Deathbed Companion. <br>
-            
-            The loathsome Dung Eater. <br>
-            
-            And Sir Gideon Ofnir, the All-knowing. <br>
-            
-            And one other. Whom grace would again bless. <br>
-            
-            A Tarnished of no renown. <br>
-            
-            Cross the fog, to the Lands Between. <br>
-            
-            To stand before the Elden Ring. <br>
-            
-            And become the Elden Lord.</p>
-
 
         <div id="sidebar" class="sidepanel">
             <a href="javascript:void(0)" class="closebtn" onclick="closeBar()">&times;</a>
-            <a href="#">About Me</a>
-            <a href="#">Interests</a>
-            <a href="#">Contacts</a>
+            <a href="#top">Landing</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#interests">Interests</a>
+            <a href="#coolsongs">Cool Songs</a>
+            <a href="#contacts">Contacts</a>
         </div>
         <button class="openbtn" onclick="openBar()">☰</button>
         
@@ -81,6 +42,50 @@
             document.getElementById("sidebar").style.width = "0";
         }
         </script>
+        <div class="mainFlexibleContainer">
+            <div>
+                <h1 id="aboutme">About Me</h1>
+                <p>The fallen leaves tell a story. The great Elden Ring was shattered. 
+                In our home, across the fog, the Lands Between. Now, Queen Marika the Eternal is nowhere
+                to be found, and in the Night of the Black Knives, Godwyn the Golden was the first to perish.
+                Soon, Marika's offspring, demigods all, claimed the shards of the Elden Ring. The mad taint of their newfound strength triggered the Shattering.
+                A war from which no lord arose. A war leading to abandonment by the Greater Will. Arise now, ye Tarnished. Ye dead, who yet live.
+                The call of long-lost grace speaks to us all. Hoarah Loux, chieftan of the badlands.
+                The ever-brilliant Goldmask. Fia, the Deathbed Companion. The loathsome Dung Eater. And Sir Gideon Ofnir, the All-knowing.
+                And one other. Whom grace would again bless. A Tarnished of no renown. Cross the fog, to the Lands Between.
+                To stand before the Elden Ring. And become the Elden Lord.</p>
+            </div>
+
+            <div>
+                <h1 id="interests">Interests</h1>
+                <p>Yes, indeed. It is called Lothric, where the transitory lands of the Lords of Cinder converge. 
+                In venturing north, the pilgrims discover the truth of the old words: "The fire fades and the lords go without thrones." 
+                When the link of fire is threatened, the bell tolls, unearthing the old Lords of Cinder from their graves...
+                Aldrich, Saint of the Deep... Farron's Undead Legion, the Abyss Watchers... And the reclusive lord of the Profaned Capital, 
+                Yhorm the Giant... Only, in truth... the Lords will abandon their thrones... And the Unkindled will rise. 
+                Nameless, accursed Undead, unfit even to be cinder. And so it is, that ash seeketh embers.
+                </p>
+            </div>
+
+            <div>
+                <h1 id="coolsongs">Cool Songs</h1>
+                <p>The fallen leaves tell a story. The great Elden Ring was shattered. 
+                    In our home, across the fog, the Lands Between. Now, Queen Marika the Eternal is nowhere
+                    to be found, and in the Night of the Black Knives, Godwyn the Golden was the first to perish.
+                    Soon, Marika's offspring, demigods all, claimed the shards of the Elden Ring. The mad taint of their newfound strength triggered the Shattering.
+                    A war from which no lord arose. A war leading to abandonment by the Greater Will. Arise now, ye Tarnished. Ye dead, who yet live.
+                    The call of long-lost grace speaks to us all. Hoarah Loux, chieftan of the badlands.
+                    The ever-brilliant Goldmask. Fia, the Deathbed Companion. The loathsome Dung Eater. And Sir Gideon Ofnir, the All-knowing.
+                    And one other. Whom grace would again bless. A Tarnished of no renown. Cross the fog, to the Lands Between.
+                    To stand before the Elden Ring. And become the Elden Lord.
+                </p>
+            </div>
+
+            <div>
+                <h1 id="contacts">Contacts</h1>
+            </div>
+
+        </div>
     </body>
 
 </html>
