@@ -8,11 +8,9 @@
     </head>
 
     <body>
-        <!--<img src="images/testbackground.png" alt="welcome image background" class="welcomeImageDiv">-->
-
-        <div class="welcomeImageDiv"></div>
-
-        <div class="welcomeText">
+        <!--<div class="welcomeDarkOverlay" id="welcomeDarkOverlay"></div>-->
+        <div class="welcomeImageDiv" id="welcomeImageDiv"></div>
+        <div class="welcomeText" id="welcomeText">
             <h1>Kim Lam</h1>
             <a href="#aboutme">
                 <button class="button button1">About Me</button>
@@ -45,6 +43,16 @@
         function closeBar() {
             document.getElementById("sidebar").style.width = "0";
         }
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("welcomeText").style.opacity = 0.25;
+        } else {
+            document.getElementById("welcomeText").style.opacity = 1;
+        }
+        }   
         </script>
         <div class="mainFlexibleContainer">
             <div>
