@@ -1,7 +1,7 @@
 body {
     background-color: #d7cec7;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-    font-family: bradley hand, cursive;
+    font-family: "Caveat", Verdana, sans-serif;
     margin: 0;
     height: 100%;
 }
@@ -13,6 +13,7 @@ html {
 
 p {
     color: #565656;
+    font-size: 30px;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1:hover {
 }
 h3 {
     align-self: center;
+    font-size: 40px;
 }
 /* side panel styling */
 .sidepanel {
@@ -105,15 +107,6 @@ h3 {
     -webkit-transform: scale(1.4);
     text-shadow: 2px 2px 8px whitesmoke;
 }
-.welcomeDarkOverlay {
-    background-color: black;
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    height: 55vw;
-    display: block;
-    transition: 0.8s;
-}
 .welcomeText button {
     border: none;
     outline: 0;
@@ -127,7 +120,7 @@ h3 {
     font-size: 2vw;
     height: 10vw;
     width: 10vw;
-    font-family: bradley hand, cursive;
+    font-family: "Caveat", Verdana, sans-serif;
     transition: 0.7s;
 }
 .welcomeText button:hover {
@@ -188,6 +181,7 @@ h3 {
 .interestList {
     list-style-type: "~ ";
     color: #565656;
+    font-size: 30px;
 }
 /* styling for spotify*/
 .spotify {
