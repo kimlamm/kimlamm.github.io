@@ -175,12 +175,25 @@ h3 {
     border-radius: 20%;
     padding: 50px;
 }
+
 /* circular profile image styling*/
 .profile {
     border-radius: 50%;
     height: 125px;
     width: 125px;
     align-self: center;
+}
+
+/*list styling*/
+.interestList {
+    list-style-type: "~ ";
+    color: #565656;
+}
+/* styling for spotify*/
+.spotify {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 /* styling for contacts logos*/
 .logoFlexibleContainer {
